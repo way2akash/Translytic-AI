@@ -92,12 +92,15 @@ Multilingual Captions: Ensure that the dropdown works and that captions appear i
 Summarization: Verify that the summarized text is an accurate representation of the video's main points.
 Text-to-Speech: Test the TTS functionality to make sure that it reads the translated captions aloud.
 Interactive Chat: Ensure that you can ask questions about the summarized transcript, and that the answers are accurate and context-based.
+
 9. Debugging Issues
 If you run into any issues, here are a few things to check:
 
 Ensure that the extension is properly loaded in the browser (chrome://extensions/).
+
 Make sure the video has available captions for translation.
 Check the console for errors (right-click the page, select Inspect, and go to the Console tab).
+
 Challenges
 API Stability: Initially, some APIs were unstable, which caused occasional failures. The issues have been resolved, and the app now functions smoothly.
 Text-to-Speech Compatibility: The TTS feature didn’t work in Chrome Canary for non-English languages. Despite speechSynthesis.getVoices() listing 22 languages, TTS only worked for English. Troubleshooting with sample code and different extensions didn’t resolve the issue.
