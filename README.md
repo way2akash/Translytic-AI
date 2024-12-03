@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Translytic AI
 
 Translytic AI is a Chrome extension designed to enhance the YouTube viewing experience by providing real-time transcript translations, multilingual captions, summarized points, and text-to-speech (TTS) for a seamless and accessible viewing experience. The extension uses Google's AI APIs and integrates with YouTube videos to offer these features.
@@ -125,3 +126,6 @@ git clone https://github.com/way2akash/Translytic-AI.git
 
 
 
+=======
+# Translytic-AI
+>>>>>>> fb350dcc94339d9b776f283de25014bb79264687
